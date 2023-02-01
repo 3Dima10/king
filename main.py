@@ -346,14 +346,14 @@ async def lop(message):
         ########################
         if message.text == "Король Бот 🤖":
             kls = types.ReplyKeyboardMarkup(resize_keyboard=True)
-            cl2 = types.KeyboardButton("2️")
-            cl3 = types.KeyboardButton("3️")
-            cl4 = types.KeyboardButton("4️")
-            cl5 = types.KeyboardButton("5️")
-            cl6 = types.KeyboardButton("6️")
-            cl7 = types.KeyboardButton("7️")
-            cl8 = types.KeyboardButton("8️")
-            cl9 = types.KeyboardButton("9️")
+            cl2 = types.KeyboardButton("2")
+            cl3 = types.KeyboardButton("3")
+            cl4 = types.KeyboardButton("4")
+            cl5 = types.KeyboardButton("5")
+            cl6 = types.KeyboardButton("6")
+            cl7 = types.KeyboardButton("7")
+            cl8 = types.KeyboardButton("8")
+            cl9 = types.KeyboardButton("9")
             cl10 = types.KeyboardButton("10")
             cln = types.KeyboardButton("⬅️Назад")
             kls.add(cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, cl10, cln)
@@ -362,7 +362,7 @@ async def lop(message):
                                    reply_markup=kls)
 
         # Кнопки БОТ
-        elif message.text == "2️":
+        elif message.text == "2":
             d3 = random.choice(ch.listb2)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -377,7 +377,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "3️":
+        elif message.text == "3":
             d3 = random.choice(ch.listb3)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -392,7 +392,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "4️":
+        elif message.text == "4":
             d3 = random.choice(ch.listb4)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -407,7 +407,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "5️":
+        elif message.text == "5":
             d3 = random.choice(ch.listb5)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -422,7 +422,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "6️":
+        elif message.text == "6":
             d3 = random.choice(ch.listb6)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -437,7 +437,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "7️":
+        elif message.text == "7":
             d3 = random.choice(ch.listb7)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -452,7 +452,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "8️":
+        elif message.text == "8":
             d3 = random.choice(ch.listb8)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -467,7 +467,7 @@ async def lop(message):
             await bot.send_message(message.chat.id, f"Игроки № : {d3}", reply_markup=kls)
             await bot.send_message(message.chat.id, f"Желания для игрока:", reply_markup=clavain)
 
-        elif message.text == "9️":
+        elif message.text =="9":
             d3 = random.choice(ch.listb9)
 
             clavain = types.InlineKeyboardMarkup(row_width=1)
@@ -689,14 +689,14 @@ async def lop(message):
         # Король БОТ
         elif message.text == "Назад":
             kls = types.ReplyKeyboardMarkup(resize_keyboard=True)
-            cl2 = types.KeyboardButton("2️⃣")
-            cl3 = types.KeyboardButton("3️⃣")
-            cl4 = types.KeyboardButton("4️⃣")
-            cl5 = types.KeyboardButton("5️⃣")
-            cl6 = types.KeyboardButton("6️⃣")
-            cl7 = types.KeyboardButton("7️⃣")
-            cl8 = types.KeyboardButton("8️⃣")
-            cl9 = types.KeyboardButton("9️⃣")
+            cl2 = types.KeyboardButton("2")
+            cl3 = types.KeyboardButton("3")
+            cl4 = types.KeyboardButton("4")
+            cl5 = types.KeyboardButton("5")
+            cl6 = types.KeyboardButton("6")
+            cl7 = types.KeyboardButton("7")
+            cl8 = types.KeyboardButton("8")
+            cl9 = types.KeyboardButton("9")
             cl10 = types.KeyboardButton("10")
             cln = types.KeyboardButton("⬅️Назад")
             kls.add(cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, cl10, cln)
